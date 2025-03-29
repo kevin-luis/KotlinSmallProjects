@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">MyGenAi</string>
+    <string name="light_mode">Mode Terang</string>
+    <string name="dark_mode">Mode Gelap</string>
+
+    <!-- Model Array -->
+    <string-array name="ai_models">
+        <item>Llama 3 70B</item>
+        <item>Llama 3 8B</item>
+        <item>Mistral 24B</item>
+        <item>Gemma 9B</item>
+        <item>Deepseek 70b</item>
+    </string-array>
+
+    <!-- Model IDs Array (sesuaikan dengan ID yang valid dari Groq) -->
+    <string-array name="ai_model_ids">
+        <item>llama3-70b-8192</item>
+        <item>llama3-8b-8192</item>
+        <item>mistral-saba-24b</item>
+        <item>gemma2-9b-it</item>
+        <item>deepseek-r1-distill-llama-70b</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme (Dark) -->
+    <style name="Theme.MyGenAI" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/blue_200</item>
+        <item name="colorPrimaryVariant">@color/blue_700</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/black</item>
+        <!-- Background & Text Colors -->
+        <item name="android:windowBackground">@color/dark_background</item>
+        <item name="android:textColor">@color/light_text</item>
+        <!-- Card and surface colors -->
+        <item name="colorSurface">@color/dark_surface</item>
+        <item name="colorOnSurface">@color/light_text</item>
+    </style>
+
+    <!-- Splash screen theme -->
+    <style name="Theme.MyGenAI.Splash" parent="Theme.MyGenAI">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+</resources>

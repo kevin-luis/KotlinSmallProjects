@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_save_chat"
+        android:title="Simpan Chat"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_load_chat"
+        android:title="Chat Tersimpan"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_clear_chat"
+        android:title="Hapus Chat"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_settings"
+        android:title="Settings"
+        android:icon="@drawable/ic_settings"
+        app:showAsAction="never"/>
+
+
+</menu>
